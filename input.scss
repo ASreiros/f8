@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    div{
+        display: inline-block;
+        width: 40vw;
+        color: white;
+        margin-left: 15vw;
+        position: absolute;
+        top:30vh;
+
+        h1{
+            font-size: 42px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+
+        p{
+            color:rgb(255, 255, 255, 0.3);
+        }
+
+    }
+
+
+    form{
+        display: inline-block;
+        width: 20vw;
+        margin-top: 20vh;
+        margin-left: 60vw;
+
+        input,
+        textarea{
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            line-height: 28px;
+            font-size: 16px;
+            border-radius: 5%;
+
+            &::placeholder{
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+
+        button{
+            display: block;
+            width: 100%;
+            background-color: #F77925;
+            color: white;
+            line-height: 56px;
+            font-size: 20px;
+            border: none;
+            border-radius: 3%;
+        }
+
+        p{
+            color:rgb(255, 255, 255, 0.3);
+            margin-top: 5px;
+        }
+    }
+}
