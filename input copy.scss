@@ -1,32 +1,37 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
     position: relative;
 
     div{
+        
         display: inline-block;
         width: 40vw;
         color: white;
         margin-left: 15vw;
-        position: absolute;
-        top:30vh;
+        height: 100%;
+        background-color: pink;
+        
+        
 
         h1{
+            display: inline-block;
             font-size: 42px;
             text-transform: capitalize;
             margin-bottom: 20px;
         }
 
         p{
+            display: inline-block;
             color:rgb(255, 255, 255, 0.3);
+            
         }
 
     }
@@ -36,7 +41,7 @@ body{
         display: inline-block;
         width: 20vw;
         margin-top: 20vh;
-        margin-left: 60vw;
+        
 
         input,
         textarea{
